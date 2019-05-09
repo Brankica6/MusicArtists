@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  background: #4ECDC4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.back {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back img:hover {
+  cursor: pointer;
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.album-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.noresults {
+  padding-top: 4rem;
+  font-size: 22px;
+}

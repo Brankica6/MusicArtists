@@ -1,0 +1,31 @@
+.artist-card{
+  width: 230px;
+  background-color: rgba(0,0,0,0.80);
+  color: #fff;
+  margin-bottom: 2rem;
+  align-content: center;
+  border: 2px solid #fff;
+}
+
+.artist-card:hover {
+  cursor: pointer;
+}
+
+.artist-card img {
+  width: 100%;
+}
+
+.name  {
+  margin-top: -1.3rem;
+  height: 50px;
+}
+
+.artist-card .name p {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.artist-card:hover .name {
+  background-color: rgba(153,23,60,0.80);
+}
